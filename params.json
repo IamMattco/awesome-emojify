@@ -1,6 +1,6 @@
 {
   "name": "Awesome-emojify",
   "tagline": "A jQuery plugin to convert Emoji keywords to images",
-  "body": "### Why\r\nI created this plugin, so that in an easy way without any skills you can use emoticons on your own site\r\n\r\n### Installation\r\nJust add it to your page head:\r\n\r\n`<script scr=\"awesome-emojify.min.js></script>`\r\n\r\nor (for development)\r\n\r\n`<script scr=\"awesome-emojify.js></script>`",
+  "body": "### Why\r\nI created this plugin, so that in an easy way without any skills you can use emoticons on your own site\r\n\r\n### Installation\r\nJust add it to your page head:\r\n\r\n`<script src=\"awesome-emojify.min.js></script>`\r\n\r\nor (for development)\r\n\r\n`<script src=\"awesome-emojify.js></script>`",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
