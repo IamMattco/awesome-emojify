@@ -31,7 +31,7 @@
         height: '20px'
     }, options );
 
-    if (window.location.hostname == 'localhost') {
+    if (window.location.hostname === 'localhost') {
       windowUrl = "localhost:3000";
     } else {
       windowUrl = window.location.hostname;
@@ -47,7 +47,7 @@
       }
     }
     return text.replace(new RegExp(patterns.join('|'),'g'), function (match) {
-      return typeof settings.emoticons[match] != 'undefined' ?
+      return typeof settings.emoticons[match] !== 'undefined' ?
       '<img src="'+url+emoticons[match]+'" style="width: '+ settings.width +'; height: '+ settings.height +';"/>' :
       match;
     });
