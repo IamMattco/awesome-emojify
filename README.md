@@ -41,7 +41,7 @@ $('.awesome-emoji').awesome_emojify({
   },
   width: '24px', // width for one emoticon
   height: '24px', // height for one emoticon
-  images_path: 'images/', // folder with emoticon images
+  images_path: 'dist/images/', // folder with emoticon images
 });
 
 ```
