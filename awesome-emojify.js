@@ -28,7 +28,7 @@
         },
         width: '24px',
         height: '24px',
-        images_path: 'images/',
+        images_path: 'dist/images/',
         text: $(this).text()
     }, options );
 
