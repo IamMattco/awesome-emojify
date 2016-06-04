@@ -19,21 +19,53 @@
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="why" class="anchor" href="#why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why</h3>
+      <p><img src="https://raw.githubusercontent.com/MateuszM/awesome-emojify/master/emoji.png" alt="alt text" title="Screen"></p>
 
-<p>I created this plugin, so that in an easy way without any skills you can use emoticons on your own site</p>
+<h1>
+<a id="awesome-emojify" class="anchor" href="#awesome-emojify" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Awesome-emojify</h1>
+
+<p>A jQuery plugin to convert Emoji keywords to images</p>
 
 <h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
+<a id="sample-usage" class="anchor" href="#sample-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample usage</h3>
 
-<p>Just add it to your page head:</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.awesome-emoji<span class="pl-pds">'</span></span>).<span class="pl-en">awesome_emojify</span>();
+</pre></div>
 
-<p><code>&lt;script src="awesome-emojify.min.js&gt;&lt;/script&gt;</code></p>
+<h3>
+<a id="with-options" class="anchor" href="#with-options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>With options</h3>
 
-<p>or (for development)</p>
-
-<p><code>&lt;script src="awesome-emojify.js&gt;&lt;/script&gt;</code></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.awesome-emoji<span class="pl-pds">'</span></span>).<span class="pl-en">awesome_emojify</span>({
+  emoticons<span class="pl-k">:</span> { <span class="pl-c">// list of available emoticons</span>
+    <span class="pl-s"><span class="pl-pds">'</span>:-)<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-1.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>;-)<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-2.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-D<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-3.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-d<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-3.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-o<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-4.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-O<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-4.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>&lt;3<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-5.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-(<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-6.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-p<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-7.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-P<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-7.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-|<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-8.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:-/<span class="pl-pds">'</span></span>     <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-8.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:)<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-1.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>;)<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-2.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:D<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-3.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:d<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-3.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:o<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-4.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:O<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-4.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:(<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-6.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:p<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-7.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:P<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-7.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:/<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-8.png<span class="pl-pds">'</span></span>,
+    <span class="pl-s"><span class="pl-pds">'</span>:|<span class="pl-pds">'</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>emoji-8.png<span class="pl-pds">'</span></span>
+  },
+  width<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>24px<span class="pl-pds">'</span></span>, <span class="pl-c">// width for one emoticon</span>
+  height<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>24px<span class="pl-pds">'</span></span>, <span class="pl-c">// height for one emoticon</span>
+  images_path<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>dist/images/<span class="pl-pds">'</span></span>, <span class="pl-c">// folder with emoticon images</span>
+});
+</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/MateuszM/awesome-emojify">Awesome-emojify</a> is maintained by <a href="https://github.com/MateuszM">MateuszM</a>.</span>
