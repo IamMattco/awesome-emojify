@@ -5,6 +5,12 @@
 # Awesome-emojify
 A jQuery plugin to convert Emoji keywords to images
 
+### Installation
+
+```javascript
+npm install awesome-emojify
+```
+
 ### Sample usage
 
 ```javascript
