@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/MateuszM/awesome-emojify/badges/gpa.svg)](https://codeclimate.com/github/MateuszM/awesome-emojify) [![Issue Count](https://codeclimate.com/github/MateuszM/awesome-emojify/badges/issue_count.svg)](https://codeclimate.com/github/MateuszM/awesome-emojify)
+[Awesome Emojify Official Website](http://mateuszm.github.io/awesome-emojify)
 
 ![alt text](https://raw.githubusercontent.com/MateuszM/awesome-emojify/master/emoji.png "Screen")
 
@@ -47,7 +47,7 @@ $('.awesome-emoji').awesome_emojify({
   },
   width: '24px', // width for one emoticon
   height: '24px', // height for one emoticon
-  images_path: 'images/', // folder with emoticon images
+  images_path: 'dist/images/', // folder with emoticon images
 });
 
 ```
