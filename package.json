@@ -1,6 +1,6 @@
 {
   "name": "awesome-emojify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A jQuery plugin to convert Emoji keywords to images",
   "main": "awesome-emojify.js",
   "dependencies": {
